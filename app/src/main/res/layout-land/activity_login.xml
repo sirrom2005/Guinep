@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:descendantFocusability="beforeDescendants"
+android:focusableInTouchMode="true"
+android:fitsSystemWindows="true"
+android:background="@drawable/gb"
+tools:context="com.trafalgartmc.guinep.LoginActivity">
+
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:theme="@style/AppTheme.TransparentActionBar"/>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:layout_width="@dimen/form_width"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center">
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="@string/enter_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        style="@style/WelcomeTextBoxStyle"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="@string/enter_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        style="@style/WelcomeTextBoxStyle"/>
+
+    <TextView
+        android:id="@+id/error"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/LoginError"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:text="@string/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        style="@style/WelcomeBtnStyle"/>
+    <Button
+        android:id="@+id/forget"
+        android:text="@string/forget_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        style="@style/ForgetBtnStyle"/>
+</LinearLayout>
+    <include layout="@layout/loading"/>
+</android.support.design.widget.CoordinatorLayout>

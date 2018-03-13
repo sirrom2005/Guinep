@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/cardview_margin"
+    android:layout_marginLeft="@dimen/cardview_margin"
+    android:layout_marginRight="@dimen/cardview_margin"
+    android:layout_marginBottom="1dp"
+    android:background="@android:color/white"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:text="retertert"
+            android:id="@+id/departure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="air J"
+            android:id="@+id/d_airport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/departure"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/departure_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d_airport"
+            android:gravity="center"
+            android:text="January 12, 2017."
+            android:textColor="#999"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/departure_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/departure_date"
+            android:gravity="center"
+            android:text="10:30 pm"
+            android:textColor="#999"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/down_arrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/departure_time"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/down_arrow" />
+
+        <TextView
+            android:id="@+id/arrival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/down_arrow"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="air J"
+            android:id="@+id/a_airport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arrival"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/arrival_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a_airport"
+            android:gravity="center"
+            android:text="January 22, 2017."
+            android:textColor="#999"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/arrival_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arrival_date"
+            android:gravity="center"
+            android:text="10:30 pm"
+            android:textColor="#999"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/div"
+            style="@style/Divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/arrival_time"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp" />
+
+        <TextView
+            android:id="@+id/flight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/div"
+            android:gravity="center"
+            android:text="American Airline (1548)"
+            android:layout_marginTop="5dp"
+            android:textColor="#999"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/class_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flight"
+            android:gravity="center"
+            android:text="Economy"
+            android:textColor="#999"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/map_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/google_map_icon"
+            android:layout_below="@+id/div"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "908692791202",
+    "firebase_url": "https://guinep-mobile-30528.firebaseio.com",
+    "project_id": "guinep-mobile-30528",
+    "storage_bucket": "guinep-mobile-30528.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908692791202:android:a4734a2d7bc773b6",
+        "android_client_info": {
+          "package_name": "com.trafalgartmc.guinep2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908692791202-tg7a5jmiskqs5b6scsu867cuo92lgjqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkFxEVN30ar4dBI1rkwtSpsQ7RqjDDIh4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

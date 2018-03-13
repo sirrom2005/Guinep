@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="@dimen/nav_header_height">
+
+    <ImageView
+        android:src="@drawable/nav_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/nav_logo_top"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/app_name" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile"
+        android:layout_width="@dimen/nav_profile_size"
+        android:layout_height="@dimen/nav_profile_size"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:transitionName="profile_photo"
+        android:layout_marginTop="@dimen/nav_profile_mar_top"
+        android:src="@drawable/profile"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#a6000f"/>
+
+    <TextView
+        android:text="@string/welcome"
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:layout_marginTop="@dimen/welcome_txt_top"
+        android:layout_toRightOf="@+id/profile"
+        android:layout_toEndOf="@+id/profile"
+        style="@style/drawerHeaderTitleText"/>
+    <TextView
+        android:text="@string/pref_default_display_name"
+        android:id="@+id/app_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="0dp"
+        android:paddingEnd="0dp"
+        android:maxLines="1"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="@dimen/nav_username_top"
+        android:layout_toRightOf="@+id/profile"
+        android:layout_toEndOf="@+id/profile"
+        style="@style/drawerSubHeaderText"/>
+
+    <RelativeLayout
+        android:id="@+id/nav_weather"
+        android:background="#a6000f"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginEnd="70dp"
+            android:maxLines="1"
+            style="@style/nav_degree"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+            <ImageView
+                android:id="@+id/today_weather_icon"
+                android:layout_width="35dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/today_degree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                style="@style/nav_degree"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

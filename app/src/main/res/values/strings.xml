@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY version_name "1.10.103">
+    ]>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <!-- CONSTANTS -->
+    <string translatable="true" name="app_name">Guinep</string>
+    <string translatable="false" name="application_id">com.trafalgartmc.guinep</string>
+    <string translatable="false" name="file_provider">com.trafalgartmc.guinep.fileprovider</string>
+    <string translatable="false" name="website">http://www.trafalgartmc.com</string>
+    <string translatable="false" name="company_phone_number">1-876-764-1262</string>
+    <string translatable="false" name="navigation_drawer_open">Open navigation drawer</string>
+    <string translatable="false" name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- END CONSTANTS -->
+    <!-- LABELS -->
+    <string translatable="true" name="about">About</string>
+    <string translatable="true" name="close">Close</string>
+    <string translatable="true" name="call">Call</string>
+    <string translatable="true" name="more_info">More Info</string>
+    <string translatable="true" name="book_now">Book Now</string>
+    <string translatable="true" name="share">Share</string>
+    <string translatable="true" name="enter_password">Enter your password</string>
+    <string translatable="true" name="enter_email">Enter your email address</string>
+    <string translatable="true" name="enter_full_name">Enter your full name</string>
+    <string translatable="true" name="create_account">Create Account</string>
+    <string translatable="true" name="have_account">Have an account? sign in</string>
+    <string translatable="true" name="sign_in">Sign In</string>
+    <string translatable="true" name="forget_login">Forget/Request login information?</string>
+    <string translatable="true" name="camera_failed">Camera task failed</string>
+    <string translatable="true" name="select_photo">Select your photo</string>
+    <string translatable="true" name="find_flights">Find Flights</string>
+    <string translatable="true" name="guinep_by_trafalgar_travel">by Trafalgar Travel</string>
+    <string translatable="true" name="welcome">Welcome,</string>
+    <!-- END LABELS -->
+    <!--Top Menu Items-->
+    <string translatable="true" name="action_home">Home</string>
+    <string translatable="true" name="action_special">Specials</string>
+    <string translatable="true" name="action_chat">Chat</string>
+    <string translatable="true" name="action_photo_stream">Photo Stream</string>
+    <string translatable="true" name="action_more">More</string>
+    <string translatable="true" name="action_refresh">Refresh</string>
+    <string translatable="true" name="action_settings">Settings</string>
+    <!--End Top Menu Items-->
+    <!-- Drawer Menu Items -->
+    <string translatable="true" name="travel_news">Travel News</string>
+    <string translatable="true" name="itinerary">Itinerary</string>
+    <string translatable="true" name="invoice">Invoice</string>
+    <string translatable="true" name="register">Register</string>
+    <string translatable="true" name="login">Login</string>
+    <string translatable="true" name="others">Others</string>
+    <string translatable="true" name="quick_info">Quick Info</string>
+    <string translatable="true" name="about_us">About</string>
+    <!-- End Drawer Menu Items -->
+
+    <string-array name="class_type">
+        <item>Economy</item>
+        <item>First</item>
+        <item>Business</item>
+    </string-array>
+    <string-array name="connection">
+        <item>Any</item>
+        <item>Direct</item>
+        <item>One Stop</item>
+        <item>Two Stop</item>
+    </string-array>
+
+    <string-array name="intro_title">
+        <item>Welcome</item>
+        <item>Book Flights</item>
+        <item>Chat</item>
+        <item>Get Travel Deals</item>
+    </string-array>
+    <string-array name="intro_body">
+        <item>Thank you for downloading Guinep, the mobile app from Trafalgar Travel Ltd, the award-winning travel management company.\n\nClick Next to learn about some of the app\'s features.</item>
+        <item>No matter where you are, no matter what time of the day, your destination awaits.\n\nResearch, Discover, BOOK!.</item>
+        <item>Introducing Client Chat, virtual, but still personal. We are here to help you along the way. Contact your agent today.</item>
+        <item>Become a member today to take full advantage of our travel specials. Create great moments and become a part of the experience.\n\nLife’s Sweetest Journeys.</item>
+    </string-array>
+    <string-array name="btn_text">
+        <item>Next</item>
+        <item>Next</item>
+        <item>Next</item>
+        <item>Let\'s Begin</item>
+    </string-array>
+
+    <!-- Settings Values -->
+    <string translatable="true" name="pref_header_general">General</string>
+    <string translatable="true" name="pref_title_display_name">Display name</string>
+    <string translatable="true" name="pref_default_display_name">App User</string>
+    <string translatable="true" name="pref_display_name_summary">Chat room name</string>
+
+    <string translatable="false"  name="pref_unit_label">Temperature Unit</string>
+    <string translatable="false" name="pref_unit_key">temperature</string>
+    <string translatable="false" name="pref_unit_default">metric</string>
+    <string translatable="false" name="pref_label_metric">Metric</string>
+    <string translatable="false" name="pref_label_imperial">Imperial</string>
+    <string translatable="false" name="pref_unit_metric">metric</string>
+    <string translatable="false" name="pref_unit_imperial">imperial</string>
+    <string-array translatable="false" name="pref_unit_options">
+        <item>@string/pref_label_metric</item>
+        <item>@string/pref_label_imperial</item>
+    </string-array>
+    <string-array name="pref_unit_values" translatable="false">
+        <item>@string/pref_unit_metric</item>
+        <item>@string/pref_unit_imperial</item>
+    </string-array>
+
+    <string translatable="true" name="pref_header_notifications">Notifications</string>
+    <string translatable="true" name="pref_title_new_message_notifications">New message notifications</string>
+    <string translatable="true" name="pref_title_ringtone">Ringtone</string>
+    <string translatable="true" name="pref_title_vibrate">Vibrate</string>
+    <string translatable="true" name="pref_ringtone_silent">Silent</string>
+
+    <string translatable="true" name="pref_header_data_sync">Data &amp; sync</string>
+    <string translatable="true" name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <!-- End Settings Values -->
+    <!--string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string-->
+    <!--string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+<string-array name="pref_example_list_titles">
+    <item>Always</item>
+    <item>When possible</item>
+    <item>Never</item>
+</string-array>
+<string-array name="pref_example_list_values">
+    <item>1</item>
+    <item>0</item>
+    <item>-1</item>
+</string-array>
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="multi_select_list_preference_default_value" />
+    <string name="pref_title_system_sync_settings">System sync settings</string-->
+
+    <string-array  translatable="false" name="invoice_number">
+        <item>111-9299144-7561800</item>
+        <item>111-0000144-7561800</item>
+    </string-array>
+    <string-array translatable="false" name="invoice_total">
+        <item>USD$ 250.45</item>
+        <item>USD$ 300.00</item>
+    </string-array>
+
+    <!--string-array name="country">
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Barcelona</item>
+        <item>Russia</item>
+        <item>New York</item>
+    </string-array>
+    <string name="book_flight">Book Flight</string>
+    <string name="departure">From</string>
+    <string name="arrival">To</string>
+    <string name="date">Date</string>
+    <string name="adult_seat">Number Of Adults:</string>
+    <string name="children_seat">Number Of Children:</string>
+    <string name="infant_seat">Number Of Infants:</string>
+    <string name="travel_class">Class</string>
+    <string name="travel_connections">Connections</string-->
+
+    <!-- Language-specific constants -->
+    <string  translatable="false" name="today">Today</string>
+    <!-- For labelling tomorrow's forecast [CHAR LIMIT=15] -->
+    <string translatable="false" name="tomorrow">Tomorrow</string>
+    <!-- Date format [CHAR LIMIT=NONE] -->
+    <string translatable="false" name="format_full_friendly_date"><xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g></string>
+    <!-- Temperature format [CHAR LIMIT=5] -->
+    <string translatable="false" name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+    <!-- Windspeed formats -->
+    <!-- Wind in mph [CHAR LIMIT=25] -->
+    <string translatable="false" name="format_wind_mph">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g></string>
+    <!-- Wind in kph [CHAR LIMIT=25] -->
+    <string translatable="false" name="format_wind_kmh">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+    <!-- Pressure format CHAR LIMIT=25] -->
+    <string translatable="false" name="format_pressure">Pressure: <xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+    <!-- Humidity format CHAR LIMIT=25]-->
+    <string translatable="false" name="format_humidity">Humidity: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+    <!-- Humidity format CHAR LIMIT=25]-->
+    <string translatable="false" name="format_degree">Degree: <xliff:g id="degree">%1.0f</xliff:g>\u00B0</string>
+
+    <!-- SyncAdapter related -->
+    <string translatable="false" name="sync_account_type">com.trafalgartmc.guinep</string>
+    <string translatable="false" name="content_authority">com.trafalgartmc.guinep.data</string>
+    <string translatable="false" name="openweathermap.api.key">7f9c8bb857c6c8de89019089f7e0283d</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] 18.0225834 -76.7801245-->
+    <string translatable="false" name="default_latitude">18.4974984  </string>
+    <string translatable="false" name="default_longitude">-77.9171445</string>
+    <string translatable="false" name="thumbnails">thumbnails</string>
+    <string translatable="false" name="reg_large_img" >_w[0-9]{3}</string>
+    <string translatable="false" name="share_look_at_photo">check out this photo</string>
+    <string translatable="false" name="share_feat_loc">Featured location %s book flights now</string>
+    <string translatable="false" name="share_special">Special on %s</string>
+    <string translatable="false" name="invalid_login">Invalid login, please try again</string>
+    <string translatable="false" name="sys_error">System error</string>
+    <string translatable="false" name="unknown_error">Unknown error</string>
+    <string translatable="false" name="network_error">Unable to connect to server,\nplease try again later.</string>
+    <string translatable="false" name="forget_pass">Forget password</string>
+    <string translatable="false" name="profile_updated">Profile updated</string>
+    <string translatable="false" name="SESSION_ID">session_id</string>
+    <string translatable="false" name="SESSION_NAME">session_name</string>
+    <string translatable="false" name="SESSION_AGENT_ID">session_agent_id</string>
+    <string translatable="false" name="SESSION_EMAIL">session_email</string>
+    <string translatable="false" name="sign_in_photo">Sign in to upload your travel photos</string>
+    <string translatable="false" name="power_by">Powered By\nwww.trafalgartmc.com</string>
+    <string translatable="false" name="version_name">&version_name;</string>
+    <string translatable="false" name="app_version_name">ver &version_name;</string>
+    <string translatable="false" name="loading">Loading...</string>
+    <string translatable="false" name="ending_session">Ending Session...</string>
+    <string translatable="false" name="downloading">Downloading to device\nplease wait...</string>
+    <string translatable="false" name="saving">Saving please wait...</string>
+    <string translatable="false" name="uploading">Uploading, Please wait...</string>
+    <string translatable="false" name="account_exist">There is an existing account associated with this email [%s], if you have forgotten your password click the forget password button.</string>
+    <string translatable="false" name="account_not_created">An error occurred while creating your new account,\nplease try again later.</string>
+    <string translatable="false" name="account_created">An email as been sent with your log in information to %s.</string>
+    <string translatable="false" name="account_created_email_error">Account created, but there was an error in sending email to [%s].</string>
+    <string translatable="false" name="account_reset">An email as been sent with your log in information to %s.</string>
+    <string translatable="false" name="email_error">Error sending email to [%s].</string>
+    <string translatable="false" name="account_no_reset">An error occurred while trying to reset your password.</string>
+    <string translatable="false" name="email_not_found">This email address [%s] is not registered with Trafalgar Travel.</string>
+    <string translatable="false" name="access_denied">To View this screen please login with your trafalgar account.</string>
+    <string translatable="false" name="request_password">If you have forgotten your password or requesting it for the first time, enter the email address that we currently have on file below.</string>
+    <string translatable="false" name="logout">Logout</string>
+    <string translatable="false" name="change_pass">Change Password</string>
+    <string translatable="false" name="enter_new_password">Enter your new password</string>
+    <string translatable="false" name="enter_confirm_password">Confirm new password</string>
+    <string translatable="false" name="enter_old_password">Enter you current password</string>
+    <string translatable="false" name="password_no_match">Password does not match</string>
+    <string translatable="false" name="password_short">Password must be 5 or more characters long</string>
+    <string translatable="false" name="password_change">Password successfully changed</string>
+    <string translatable="true" name="book_flight">Book Flight</string>
+    <string translatable="false" name="image_upload_error">An error occurred while uploading the image,\nplease try again later.</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDVoiLoETNkjVCfGAzNzA_2GIK1x9dZ60s</string>
+    <string translatable="false" name="itinerary_detail">Itinerary Detail</string>
+    <string translatable="false" name="update_profile">Profile Updated</string>
+    <string translatable="false" name="female">Female</string>
+    <string translatable="false" name="male">Male</string>
+    <string translatable="false" name="date_of_birth">Date of birth</string>
+    <string translatable="false" name="gender">Gender</string>
+    <string translatable="false" name="email_address">Email address</string>
+    <string translatable="false" name="total">Total</string>
+    <string translatable="false" name="invoice_number">Invoice #</string>
+    <string translatable="false" name="your_first_name">Your first name</string>
+    <string translatable="false" name="your_middle_name">Your middle name</string>
+    <string translatable="false" name="your_last_name">Your last name</string>
+    <string translatable="false" name="your_mobile_number">Your mobile number</string>
+    <string translatable="false" name="your_home_phone_number">Your home phone number</string>
+    <string translatable="false" name="your_work_phone_number">Your work phone number</string>
+    <string translatable="false" name="address_line_1">Address line 1</string>
+    <string translatable="false" name="address_line_2">Address line 2</string>
+    <string translatable="false" name="address_line_3">Address line 3</string>
+    <string translatable="false" name="select_your_occupation">Select your occupation type</string>
+    <string translatable="false" name="detail">Detail:</string>
+    <string translatable="false" name="image_crop_error">An error occurred while cropping photo.</string>
+    <string translatable="false" name="itinerary_for">ITINERARY FOR\n%s</string>
+    <string translatable="false" name="booking_ref">Booking ref: %s</string>
+    <string translatable="false" name="empty_list">You have no items to display</string>
+    <string translatable="false" name="open_with">Open file with</string>
+    <string translatable="false" name="internet_unavailable">Internet service unavailable.</string>
+    <string translatable="false" name="enter_message">Enter your message</string>
+    <string translatable="false" name="welcome_client_chat">Welcome to Client Chat</string>
+    <string translatable="false" name="change_agent">Change Agent</string>
+    <string translatable="false" name="your_agent">Your agent is %s.</string>
+    <string translatable="false" name="no_agents_online">Unfortunately no agents are online to assist you, please try again later or send us an email and we will get back to you.</string>
+    <string translatable="false" name="exit_chat">You are about to exit the chat</string>
+    <string translatable="false" name="error_empty_msg">Error sending empty text</string>
+    <string translatable="false" name="leave_email">Leave Email</string>
+</resources>

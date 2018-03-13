@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string translatable="true" name="app_name">Guinep(SP)</string>
+    <!-- LABELS -->
+    <string translatable="true" name="about">Acerca de</string>
+    <string translatable="true" name="close">Cerca</string>
+    <string translatable="true" name="call">Llamada</string>
+    <string translatable="true" name="more_info">Más información</string>
+    <string translatable="true" name="book_now">Reservar ahora</string>
+    <string translatable="true" name="share">Compartir</string>
+    <string translatable="true" name="enter_password">Ingrese su contraseña</string>
+    <string translatable="true" name="enter_email">Ingrese su dirección de correo electrónico</string>
+    <string translatable="true" name="enter_full_name">Introduzca su nombre completo</string>
+    <string translatable="true" name="create_account">Crear una cuenta</string>
+    <string translatable="true" name="have_account">¿tener una cuenta? registrarse</string>
+    <string translatable="true" name="sign_in">Registrarse</string>
+    <string translatable="true" name="forget_login">¿Olvidaste tu información de acceso?</string>
+    <string translatable="true" name="camera_failed">Error en la tarea de la cámara</string>
+    <string translatable="true" name="select_photo">Selecciona tu foto</string>
+    <string translatable="true" name="find_flights">Buscar vuelos</string>
+    <string translatable="true" name="guinep_by_trafalgar_travel">por Trafalgar Travel</string>
+    <string translatable="true" name="welcome">Bienvenido,</string>
+    <!-- END LABELS -->
+    <!--Top Menu Items-->
+    <string translatable="true" name="action_home">Casa</string>
+    <string translatable="true" name="action_special">Especiales</string>
+    <string translatable="true" name="action_chat">Charla</string>
+    <string translatable="true" name="action_photo_stream">secuencia de fotos</string>
+    <string translatable="true" name="action_more">Más</string>
+    <string translatable="true" name="action_refresh">Refrescar</string>
+    <string translatable="true" name="action_settings">Ajustes</string>
+    <!--End Top Menu Items-->
+    <!-- Drawer Menu Items -->
+    <string translatable="true" name="travel_news">Noticias de viajes</string>
+    <string translatable="true" name="itinerary">Itinerario</string>
+    <string translatable="true" name="invoice">Factura</string>
+    <string translatable="true" name="register">Registro</string>
+    <string translatable="true" name="login">Iniciar sesión</string>
+    <string translatable="true" name="others">Otros</string>
+    <string translatable="true" name="quick_info">Información rápida</string>
+    <string translatable="true" name="about_us">Acerca de</string>
+    <!-- End Drawer Menu Items -->
+
+    <string-array name="class_type">
+        <item>Economy</item>
+        <item>First</item>
+        <item>Business</item>
+    </string-array>
+    <string-array name="connection">
+        <item>Any</item>
+        <item>Direct</item>
+        <item>One Stop</item>
+        <item>Two Stop</item>
+    </string-array>
+    <string-array name="intro_title">
+        <item>bienvenida</item>
+        <item>reservar vuelos</item>
+        <item>gato</item>
+        <item>Obtener Viajes</item>
+    </string-array>
+    <string-array name="intro_body">
+        <item>Thank you for downloading Guniep, the mobile app from Trafalgar Travel Ltd, the award-winning travel management company, click Next to learn about some of the apps features.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</item>
+    </string-array>
+    <string-array name="btn_text">
+        <item>siguiente</item>
+        <item>siguiente</item>
+        <item>siguiente</item>
+        <item>Vamos a empezar</item>
+    </string-array>
+
+    <!-- Settings Values -->
+    <string translatable="true" name="pref_header_general">General</string>
+    <string translatable="true" name="pref_title_display_name">Nombre para mostrar</string>
+    <string translatable="true" name="pref_default_display_name">Usuario Guinep</string>
+    <string translatable="true" name="pref_display_name_summary">Nombre de la sala de chat</string>
+
+    <string translatable="true" name="pref_header_notifications">Notificaciones</string>
+    <string translatable="true" name="pref_title_new_message_notifications">Nuevas notificaciones de mensajes</string>
+    <string translatable="true" name="pref_title_ringtone">Tono de llamada</string>
+    <string translatable="true" name="pref_title_vibrate">Vibrar</string>
+    <string translatable="true" name="pref_ringtone_silent">Silencio</string>
+
+    <string translatable="true" name="pref_header_data_sync">Datos y sincronización</string>
+    <string translatable="true" name="pref_title_sync_frequency">Frecuencia de sincronización</string>
+    <string translatable="true" name="book_flight">Reservar un vuelo</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+</resources>

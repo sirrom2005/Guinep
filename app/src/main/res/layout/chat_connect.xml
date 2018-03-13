@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:text="@string/welcome_client_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/agent_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/chat_user"
+            app:civ_border_width="3dp"
+            app:civ_border_color="#a6000f"/>
+
+        <TextView
+            android:id="@+id/agent_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/grey_700" />
+
+        <Button
+            android:id="@+id/btn_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AgentBtnStyle"/>
+
+        <ImageView
+            android:id="@+id/btn_accept"
+            android:src="@drawable/ic_check_white_48dp"
+            android:visibility="gone"
+            android:layout_marginTop="25dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/accept_button_press"/>
+    </LinearLayout>
+</LinearLayout>

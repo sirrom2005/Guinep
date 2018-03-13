@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.trafalgartmc.guinep.Assets.TextLabel
+        android:text="Select Agent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DialogHeading" />
+
+    <Spinner
+        android:id="@+id/agent_list"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@android:string/ok"
+        style="@style/DialogBtnStyle" />
+</LinearLayout>
+
+

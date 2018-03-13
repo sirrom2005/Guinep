@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_news"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="@string/travel_news" />
+        <item
+            android:id="@+id/action_itinerary"
+            android:icon="@drawable/ic_airplanemode_active_black_24dp"
+            android:title="@string/itinerary" />
+        <item
+            android:id="@+id/action_invoice"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="@string/invoice" />
+        <!--item
+            android:id="@+id/wishlist"
+            android:icon="@drawable/ic_format_list_numbered_black_24dp"
+            android:title="@string/wishlist" /-->
+        <item
+            android:id="@+id/action_register"
+            android:icon="@drawable/register"
+            android:title="@string/register" />
+        <item
+            android:id="@+id/action_login"
+            android:icon="@drawable/ic_login"
+            android:title="@string/login" />
+        <item
+            android:visible="false"
+            android:id="@+id/action_change_pass"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="@string/change_pass" />
+        <item
+            android:visible="false"
+            android:id="@+id/action_logout"
+            android:icon="@drawable/ic_https_black_24dp"
+            android:title="@string/logout" />
+    </group>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/action_settings" />
+            <item
+                android:id="@+id/action_quick_info"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/quick_info" />
+            <item
+                android:id="@+id/action_about"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about_us" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/gb"
+    tools:context="com.trafalgartmc.guinep.Welcome.Intro">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme.TransparentActionBar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/container"
+        android:layout_width="@dimen/form_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="@dimen/logo_size"
+            android:layout_height="@dimen/logo_size"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:text="@string/request_password"
+            android:hint="@string/enter_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:hint="@string/enter_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            style="@style/WelcomeTextBoxStyle"/>
+
+        <Button
+            android:id="@+id/btn"
+            android:text="@android:string/ok"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/WelcomeBtnStyle"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <!--LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_gravity="bottom">
+        <View style="@style/DividerWhite" />
+        <Button
+            android:id="@+id/have_account"
+            android:text="@string/have_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ForgetBtnStyle"
+            android:layout_gravity="center"/>
+    </LinearLayout-->
+    <include layout="@layout/loading"/>
+</android.support.design.widget.CoordinatorLayout>

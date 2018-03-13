@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/invoice_code_label"
+        android:text="@string/invoice_number"
+        android:textSize="12sp"
+        android:paddingRight="0dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/invoice_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="0dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/invoice_code_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:paddingLeft="0dp"
+        android:paddingStart="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:id="@+id/detail"
+        android:text="@string/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/invoice_code"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/invoice_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:layout_alignBaseline="@+id/detail"
+        android:layout_alignBottom="@+id/detail"
+        android:layout_toRightOf="@+id/invoice_code_label"
+        android:layout_toEndOf="@+id/invoice_code_label" />
+
+    <View style="@style/Divider" android:layout_below="@+id/invoice_desc"/>
+</RelativeLayout>

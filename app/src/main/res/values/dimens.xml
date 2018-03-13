@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_header_vertical_spacing">20dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="form_width">300dp</dimen>
+    <dimen name="logo_size">100dp</dimen>
+    <dimen name="intro_btn_mrg_top">30dp</dimen>
+    <dimen name="refresher_offset_end">250dp</dimen>
+</resources>

@@ -1,0 +1,260 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="AppTheme.Launcher" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppFullScreenTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#00000000</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.TransparentActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:color">@color/white</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="myPopMenuStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SpinnerItemStyle" parent="@style/Widget.AppCompat.Spinner.Underlined">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <!--item name="android:background">@drawable/spinner_background</item>
+        <item name="android:backgroundTint">@color/colorAccent</item-->
+    </style>
+
+    <!--START BUTTONS-->
+    <style name="ButtonStyle" parent="android:style/Widget.Material.Button.Borderless">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_press</item>
+        <item name="android:borderlessButtonStyle">?borderlessButtonStyle</item>
+    </style>
+
+    <style name="WelcomeBtnStyle" parent="android:style/Widget.Material.Button.Borderless">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/outline_button_press</item>
+        <item name="android:borderlessButtonStyle">?borderlessButtonStyle</item>
+    </style>
+
+    <style name="AgentBtnStyle" parent="android:style/Widget.Material.Button.Borderless">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/agent_button_press</item>
+        <item name="android:borderlessButtonStyle">?borderlessButtonStyle</item>
+    </style>
+
+    <style name="WelcomeTextBoxStyle" parent="android:style/Widget.Material.EditText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/outline_text_background</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+    </style>
+
+    <style name="DialogHeading" parent="android:style/Widget.Material.EditText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="DialogBtnStyle" parent="android:style/Widget.Material.Button.Borderless">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:borderlessButtonStyle">?borderlessButtonStyle</item>
+        <item name="android:background">@color/blue</item>
+    </style>
+
+    <style name="ListButton" parent="android:style/Widget.Material.Button.Borderless">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:borderlessButtonStyle">?borderlessButtonStyle</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ForgetBtnStyle" parent="android:style/Widget.Material.Button.Borderless">
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:background">@drawable/outline_forget_btn_press</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--START BUTTONS-->
+
+    <style name="LoginError">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!--style name="homeH1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="homeH2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="homeTempLargeText">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style-->
+
+    <style name="ListTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="ListSubTitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="drawerHeaderTitleText">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">38sp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <!--style name="drawerHeaderText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style-->
+
+    <style name="nav_degree">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="drawerSubHeaderText">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#eeeeee</item>
+    </style>
+
+    <style name="DividerWhite">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="DividerVertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#eeeeee</item>
+    </style>
+
+    <style name="ChatTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/chat_background</item>
+        <item name="android:hint">@android:color/black</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">#999999</item>
+    </style>
+
+    <style name="ExpandedTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/sunshine_blue</item>
+    </style>
+    <style name="CollapsedTitle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+</resources>

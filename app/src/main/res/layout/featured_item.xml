@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* This layout will display the information for the following:
+* - Featured information
+* - Specials information
+* - News detail information
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_margin="0dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ListTitle"/>
+        <TextView
+            android:id="@+id/sub_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ListSubTitle"/>
+    </LinearLayout>
+    <View style="@style/Divider" android:id="@+id/divider" />
+    <LinearLayout
+        android:id="@+id/option_bar"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:gravity="center">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:gravity="center">
+            <Button
+                android:id="@+id/call"
+                android:text="@string/call"
+                android:drawableTop="@drawable/ic_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/ListButton" />
+            <View style="@style/DividerVertical" />
+            <Button
+                android:id="@+id/book"
+                android:text="@string/book_now"
+                android:drawableTop="@drawable/ic_plane"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/ListButton"/>
+            <View style="@style/DividerVertical" />
+            <Button
+                android:id="@+id/share"
+                android:text="@string/share"
+                android:drawableTop="@drawable/ic_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/ListButton" />
+        </LinearLayout>
+        <View style="@style/Divider" android:id="@+id/divider2" />
+    </LinearLayout>
+    <WebView
+        android:id="@+id/html"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp"/>
+</LinearLayout>

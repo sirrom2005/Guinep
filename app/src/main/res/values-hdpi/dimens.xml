@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="border_radius">15dp</dimen>
+    <dimen name="border_width">5dp</dimen>
+    <dimen name="gender_margin">5dp</dimen>
+    <dimen name="cardview_margin">0dp</dimen>
+    <dimen name="intro_btn_mrg_top">20dp</dimen>
+    <dimen name="refresher_offset_end">50dp</dimen>
+    <dimen name="nav_profile_mar_top">55dp</dimen>
+    <dimen name="nav_profile_size">70dp</dimen>
+    <dimen name="welcome_txt_top">60dp</dimen>
+    <dimen name="nav_username_top">102dp</dimen>
+    <dimen name="nav_header_height">210dp</dimen>
+    <dimen name="nav_logo_top">5dp</dimen>
+    <dimen name="nav_right_margin">16dp</dimen>
+    <dimen name="temp_left_margin">40dp</dimen>
+    <dimen name="loading_margin">50dp</dimen>
+</resources>
